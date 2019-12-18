@@ -1,28 +1,19 @@
+Klase 1: 
+Samanta10
 Edvinas9.9
 Tomas9.5
-Antanas4.3
 Nerijus7.1
-Samanta10
-Gabriele2.9
-Eugenijus5.75
-Ieva8.2
-Erika5.9
-Gabija3.5
+Klase 2: 
 Agne9.1
-Linas1.5
+Ieva8.2
 Simonas7.1
 Aurimas8.8
+Klase 3: 
 Lukas9.2
-Mantas6.7
-Tautvydas7.1
 Raminta8.5
-Reda4.7
-Diana3.8
+Tautvydas7.1
+Mantas6.7
+Klase 4: 
 Emilija10
 Austeja9.9
-Vilte7.2
 Jokubas8.5
-Nojus3.9
-Jonas5.7
-Kajus6.7
-Dovydas6.8
