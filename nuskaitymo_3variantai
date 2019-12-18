@@ -1,0 +1,48 @@
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <cmath>
+//#include <cstring>
+ 
+ 
+using namespace std;
+void skaitymas1(ifstream &in, int &sk);
+void skaitymas2(string failas, int &sk);
+void skaitymas3(char failas[], int &sk);
+ 
+int main()
+{
+    setlocale(LC_ALL, "Lithuanian");
+    int sk;
+    ///1 var
+    /*ifstream in("duom.txt");
+    skaitymas1(in, sk);
+    in.close();
+    */
+    ///2 var
+    //skaitymas2("duom.txt", sk);
+    ///3 var
+    skaitymas3("duom.txt", sk);
+    cout << sk;
+//
+ 
+    return 0;
+}
+ 
+void skaitymas1(ifstream &in, int &sk)
+{
+    in >> sk;
+}
+ 
+void skaitymas2(string failas, int &sk)
+{
+    ifstream in(failas.c_str()); /// c_str() pavercia string i char masyva
+    in >> sk;
+    in.close();
+}
+void skaitymas3(char failas[], int &sk)
+{
+    ifstream in(failas); /// c_str() pavercia string i char masyva
+    in >> sk;
+    in.close();
+}
